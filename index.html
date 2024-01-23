@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@1,600&family=Silkscreen&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css">
+    <title>Drums</title>
+  </head>
+
+  <body>
+    <div class="page">
+      
+      <div class="top">
+        <h1>Press the keys on your keyboard.</h1>
+      </div>
+
+      <div class="keys">
+        <div class="key" data-key="KeyA">
+          <kbd>a</kbd>
+        </div>
+        <div class="key" data-key="KeyS">
+          <kbd>s</kbd>
+        </div>
+        <div class="key" data-key="KeyD">
+          <kbd>d</kbd>
+        </div>
+        <div class="key" data-key="KeyF">
+          <kbd>f</kbd>
+        </div>
+        <div class="key" data-key="KeyG">
+          <kbd>g</kbd>
+        </div>
+        <div class="key" data-key="KeyH">
+          <kbd>h</kbd>
+        </div>
+        <div class="key" data-key="KeyJ">
+          <kbd>j</kbd>
+        </div>
+        <div class="key" data-key="KeyK">
+          <kbd>k</kbd>
+        </div>
+        <div class="key" data-key="KeyL">
+          <kbd>l</kbd>
+        </div>
+            </div>
+      </div>
+
+    <audio data-key="KeyA" src="sounds/clap.wav"></audio>
+    <audio data-key="KeyS" src="sounds/hihat.wav"></audio>
+    <audio data-key="KeyD" src="sounds/kick.wav"></audio>
+    <audio data-key="KeyF" src="sounds/openhat.wav"></audio>
+    <audio data-key="KeyG" src="sounds/boom.wav"></audio>
+    <audio data-key="KeyH" src="sounds/ride.wav"></audio>
+    <audio data-key="KeyJ" src="sounds/snare.wav"></audio>
+    <audio data-key="KeyK" src="sounds/tom.wav"></audio>
+    <audio data-key="KeyL" src="sounds/tink.wav"></audio>
+
+    <script src="app.js"></script>
+  </body>
+</html>

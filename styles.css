@@ -1,0 +1,62 @@
+:root {
+    --highlight: rgb(226, 187, 252);
+}
+
+html {
+    background: url(cover.jpg);
+    background-color: rgba(0, 0, 0, 0.229);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+
+html, body {
+    font-size: 10px;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: 'IBM Plex Mono', monospace;
+    color: rgba(255, 255, 255, 0.63);
+}
+
+.page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+
+.keys {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.key {
+    background-color: rgba(0, 0, 0, 0.518);
+    border-radius: 10%;
+    color: white;
+    border: .7rem rgba(0, 0, 0, 0.518);
+    margin: 1rem;
+    font-size: 3rem;
+    padding: 2rem 4rem;
+    transition: all 0.08s ease-in-out;
+    text-align: center;
+}
+
+.playing {
+    transform: scale(1.1);
+    border-color: var(--highlight);
+    color: var(--highlight);
+    box-shadow: 0 0 1.5rem var(--highlight);
+}
+
+kbd {
+    font-family: 'IBM Plex Mono', monospace;    
+    font-size: 5rem;
+}
