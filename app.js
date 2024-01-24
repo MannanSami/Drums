@@ -17,4 +17,4 @@ function play(e) {
 
 window.addEventListener('keydown', play);
 const keys = document.querySelectorAll('.key');
-keys.forEach(key => key.addEventListener('transitionend', revert));
+keys.forEach(key => key.addEventListener('transitionend'));
